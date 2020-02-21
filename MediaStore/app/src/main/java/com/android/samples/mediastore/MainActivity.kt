@@ -143,13 +143,6 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
-        super.onActivityResult(requestCode, resultCode, data)
-        if (resultCode == Activity.RESULT_OK && requestCode == DELETE_PERMISSION_REQUEST) {
-            viewModel.deletePendingImage()
-        }
-    }
-
     private fun showImages() {
         viewModel.loadImages()
         binding.welcomeView.visibility = View.GONE
