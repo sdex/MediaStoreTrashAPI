@@ -1,3 +1,5 @@
+# You need an emulator instance with Android R in order to run this APP. It won't work on earlier versions
+
 # Storage Samples Repository
 
 This repository contains a set of individual Android Studio projects to help you learn about
